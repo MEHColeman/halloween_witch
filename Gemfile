@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'ya_gpio'
+
 group :test do
   gem 'byebug'
   gem 'pry-byebug'
