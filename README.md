@@ -11,3 +11,17 @@ Alarm sound: sounds/witch_cackle.mp3
 
 You also need to create your own scary silhouette!
 
+## Prerequisites
+
+You need to have ruby installed.
+I do this with rbenv. (This can also be installed from a package `apt-get install rbenv`).
+```
+rbenv install 2.4.1   # install ruby version 2.4.1
+rbenv local 2.4.1     # use this version locally
+bundle                # install the ruby libraries used by this program
+```
+
+## Running
+```
+bundle exec ruby scare_em.rb
+```
