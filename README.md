@@ -18,7 +18,9 @@ the sensor.
 
 It also has a yellow jumper that changes the way the activation signal is sent.
 You want this set to "LOW" which means that a signal is sent 1 time per
-activation period, not multiple times.
+activation period, not multiple times. I found this good [video on
+youtube](https://www.youtube.com/watch?v=ZC_sEW3_694), if you want to learn
+more
 
 You also need to create your own scary silhouette!
 
