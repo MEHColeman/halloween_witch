@@ -9,7 +9,10 @@ changing the values in `config.rb`, but by default are:
 
 * The PIR connects to 5V, GND and pin 22 for the output.
 * The relay connects to 3.3V, GND and pin 27 for the signal.
-Alarm sound: sounds/witch_cackle.mp3
+* Alarm sounds: sounds/witch_cackle_[1..4].m4a
+
+The alarm sount can be a single soundfile, or an array of sounds to add a bit
+of variety.
 
 Some PIRs come with two potentiometers: For the HC-SR501, when viewing with the
 Fresnel lens on top, the potentiometer on the left adjusts the activation time
