@@ -13,7 +13,7 @@ ALARM_SOUND = ['sounds/witch_cackle_1.m4a',
                'sounds/witch_cackle_4.m4a']
 
 # run VLC on a mac
-#VLC_COMMAND = '/Applications/VLC.app/Contents/MacOS/VLC'
+VLC_COMMAND = '/Applications/VLC.app/Contents/MacOS/VLC'
 
 # run VLC on raspbian
-VLC_COMMAND = 'cvlc'
+#VLC_COMMAND = 'cvlc'
