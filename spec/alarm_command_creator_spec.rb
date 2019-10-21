@@ -25,5 +25,16 @@ describe AlarmCommandCreator do
                                    soundfile: 'soundfile.mp3')
       expect(cc.call).must_equal 'vlc_command --play-and-exit soundfile.mp3'
     end
+
+    it 'uses a ramdom file if initialised with an array' do
+      cc = AlarmCommandCreator.new(vlc_command: 'DDD',
+                                   soundfile: ['1','2','3','4'])
+      expect(
+        ['DDD --play-and-exit 1',
+         'DDD --play-and-exit 2',
+         'DDD --play-and-exit 3',
+         'DDD --play-and-exit 4']
+      ).must_include(cc.call)
+    end
   end
 end

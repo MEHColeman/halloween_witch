@@ -1,4 +1,5 @@
 require_relative '../config'
+require_relative 'alarm_command_creator'
 
 class Spooker
   def initialize(relay:, alarm_sound:)
