@@ -4,6 +4,8 @@ Make a cackling witch silhouette with a raspberry pi, a PIR sensor and a relay
 powering a light bulb.  Connect your lighting circuit to the NO (normally open)
 relay connection.
 
+[Demo here](https://www.reddit.com/r/raspberry_pi/comments/dl8a2b/i_made_a_spooky_cackling_witch_for_halloween_with/)
+
 Pin connections and the sound played when triggered can be configured by
 changing the values in `config.rb`, but by default are:
 
