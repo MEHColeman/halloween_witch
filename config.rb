@@ -3,7 +3,7 @@
 PIR_SENSOR = 22
 RELAY_SIGNAL = 27
 
-ALARM_SOUND = 'sounds/witch_cackle.mp3'
+#ALARM_SOUND = 'sounds/witch_cackle_1.m4a'
 
 # run VLC on a mac
 #VLC_COMMAND = '/Applications/VLC.app/Contents/MacOS/VLC'

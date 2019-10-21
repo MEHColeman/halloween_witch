@@ -36,7 +36,6 @@ describe Spooker do
       subject.flash_lights
       relay_mock.verify
     end
-  end
 
     it 'does not block' do
       expect(

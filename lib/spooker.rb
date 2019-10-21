@@ -3,11 +3,12 @@ require_relative '../config'
 class Spooker
   def initialize(relay:, alarm_sound:)
     @relay = relay
-    @alarm_sound = alarm_sound
+    @alarm_command_creator = AlarmCommandCreator.new(vlc_command: VLC_COMMAND,
+                                                     soundfile: alarm_sound)
   end
 
   def start_alarm_sound
-    fork { exec("#{VLC_COMMAND} --play-and-exit #{@alarm_sound}") }
+    fork { exec( @alarm_command_creator.call ) }
   end
 
   # below 3 Hz should avoid photosensitive epilepsy
