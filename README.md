@@ -1,7 +1,7 @@
 # Halloween Witch Pi Project
 
 Make a cackling witch silhouette with a raspberry pi, a PIR sensor and a relay
-powering a light bulb.  Connect your lighting circuit to the NO (normally open)
+powering a light bulb. Connect your lighting circuit to the NO (normally open)
 relay connection.
 
 [Demo here](https://www.reddit.com/r/raspberry_pi/comments/dl8a2b/i_made_a_spooky_cackling_witch_for_halloween_with/)
@@ -13,7 +13,7 @@ changing the values in `config.rb`, but by default are:
 * The relay connects to 3.3V, GND and pin 27 for the signal.
 * Alarm sounds: sounds/witch_cackle_[1..4].m4a
 
-The alarm sount can be a single soundfile, or an array of sounds to add a bit
+The alarm sound can be a single sound file, or an array of sounds to add a bit
 of variety.
 
 Some PIRs come with two potentiometers: For the HC-SR501, when viewing with the
@@ -25,7 +25,7 @@ It also has a yellow jumper that changes the way the activation signal is sent.
 You want this set to "LOW" which means that a signal is sent 1 time per
 activation period, not multiple times. I found this good [video on
 youtube](https://www.youtube.com/watch?v=ZC_sEW3_694), if you want to learn
-more
+more.
 
 You also need to create your own scary silhouette!
 
